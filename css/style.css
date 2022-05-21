@@ -1,0 +1,95 @@
+:root {
+  --accent-color: #2196f3;
+  --hero-btn-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --main-title-color: #212121;
+  --main-text-color: #757575;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-title-color);
+  background-color: #e5e5e5;
+}
+.hidden-title {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin: -1px;
+}
+header {
+  background-color: #ffffff;
+}
+
+/* основной цвет шрифта черный #212121 */
+/* вспомогательный текст черный #757575 */
+/* цвет шрифта героя белый #FFFFFF */
+/* цвет шрифта акцента голубой #2196F3 */
+/* цвет фона светло-серый #E5E5E5 */
+/* цвет фона героя и футера черный #2F303A */
+/* цвета логотипа голубой #2196F3 и черный #000000 */
+
+/* ------------WebStudio------------ */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ------------header-nav------------ */
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-nav link:hover,
+.header-nav link:focus {
+  color: var(--accent-color);
+}
+.header-nav list {
+  color: var(--main-title-color);
+}
+/* ------------hero------------ */
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: #2f303a;
+}
+.section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+}
+.section-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--hero-btn-color);
+}
