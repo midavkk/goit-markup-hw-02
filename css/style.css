@@ -20,6 +20,7 @@ body {
   color: var(--main-title-color);
   background-color: #e5e5e5;
 }
+
 .hidden-title {
   width: 1px;
   height: 1px;
@@ -50,6 +51,14 @@ header {
   line-height: 31px;
   color: var(--main-title-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--hero-title-color);
 }
 
 /* ------------header-nav------------ */
