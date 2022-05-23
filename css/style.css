@@ -6,6 +6,14 @@
   --main-text-color: #757575;
 }
 
+/* основной цвет шрифта черный #212121 */
+/* вспомогательный текст черный #757575 */
+/* цвет шрифта героя белый #FFFFFF */
+/* цвет шрифта акцента голубой #2196F3 */
+/* цвет фона светло-серый #E5E5E5 */
+/* цвет фона героя и футера черный #2F303A */
+/* цвета логотипа голубой #2196F3 и черный #000000 */
+
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -23,17 +31,9 @@ header {
   background-color: #ffffff;
 }
 
-/* основной цвет шрифта черный #212121 */
-/* вспомогательный текст черный #757575 */
-/* цвет шрифта героя белый #FFFFFF */
-/* цвет шрифта акцента голубой #2196F3 */
-/* цвет фона светло-серый #E5E5E5 */
-/* цвет фона героя и футера черный #2F303A */
-/* цвета логотипа голубой #2196F3 и черный #000000 */
-
 /* ------------WebStudio------------ */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -43,7 +43,7 @@ header {
 }
 
 .logo-text {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -67,6 +67,12 @@ header {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header-nav link:hover,
 .header-nav link:focus {
   color: var(--accent-color);
@@ -74,6 +80,16 @@ header {
 .header-nav list {
   color: var(--main-title-color);
 }
+
+.tiitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
 /* ------------hero------------ */
 .hero {
   width: 1600px;
@@ -102,4 +118,47 @@ header {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--hero-btn-color);
+}
+
+/* ------------about------------ */
+
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ------------team------------ */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
