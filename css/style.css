@@ -61,7 +61,8 @@ header {
   color: var(--hero-title-color);
 }
 
-/* ------------header-nav------------ */
+/* ------------navigation------------ */
+
 .navigation {
   font-family: "Roboto" sans-serif;
   font-style: normal;
