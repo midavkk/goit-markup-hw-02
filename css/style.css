@@ -78,6 +78,7 @@ header {
 }
 
 .link {
+  font-style: normal;
   text-decoration: none;
   color: inherit;
 }
@@ -170,4 +171,27 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+/* ------------footer------------ */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-contacts-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-title-color);
+}
+
+.footer-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
