@@ -62,7 +62,9 @@ header {
 }
 
 /* ------------header-nav------------ */
-.header-nav {
+.navigation {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -83,11 +85,10 @@ header {
   color: inherit;
 }
 
-.header-nav link:hover,
-.header-nav link:focus {
+.navigation: hover, .navigation: focus {
   color: var(--accent-color);
 }
-.header-nav list {
+.header-nav {
   color: var(--main-title-color);
 }
 
