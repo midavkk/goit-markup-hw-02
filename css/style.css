@@ -73,6 +73,18 @@ header {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+
+.header-nav {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -81,19 +93,10 @@ header {
   color: var(--main-text-color);
 }
 
-.link {
-  font-style: normal;
-  text-decoration: none;
-  color: inherit;
-}
-
-.navigation:hover,
-.navigation:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
-}
-
-.header-nav {
-  color: var(--main-title-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .tittle {
@@ -123,6 +126,7 @@ header {
   color: var(--hero-title-color);
 }
 .section-btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -190,9 +194,15 @@ header {
 
 /* ------------portfolio------------ */
 
+.portfolio-btn {
+  cursor: pointer;
+  color: var(--main-title-color);
+}
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--hero-btn-color);
+  color: var(--hero-title-color);
 }
 
 /* ------------footer------------ */
