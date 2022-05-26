@@ -85,6 +85,10 @@ body {
   color: var(--main-title-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /* ------------hero------------ */
 .hero {
   width: 1600px;
