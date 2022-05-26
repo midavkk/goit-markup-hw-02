@@ -18,7 +18,6 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
-  background-color: #e5e5e5;
 }
 
 .hidden-title {
@@ -29,36 +28,23 @@ body {
   margin: -1px;
 }
 
-header {
-  background-color: #ffffff;
-}
-
 /* ------------WebStudio------------ */
+
 .logo {
   font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--accent-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-text {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
   color: var(--main-title-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-footer {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--hero-title-color);
 }
 
@@ -77,15 +63,6 @@ header {
 .header-nav {
   font-family: "Roboto" sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -116,6 +93,11 @@ header {
   top: 80px;
   background-color: #2f303a;
 }
+
+.title {
+  font-size: 36px;
+}
+
 .section-title {
   font-weight: 900;
   font-size: 44px;
@@ -164,10 +146,6 @@ header {
 
 /* ------------gallery------------ */
 
-.gallery {
-  background: #ffffff;
-}
-
 /* ------------team------------ */
 .team {
   background-color: #f5f4fa;
@@ -195,6 +173,11 @@ header {
 /* ------------portfolio------------ */
 
 .portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--main-title-color);
 }
