@@ -87,10 +87,6 @@ body {
 
 /* ------------hero------------ */
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background-color: #2f303a;
 }
 
@@ -104,8 +100,6 @@ body {
 }
 
 .section-title {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -121,9 +115,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--hero-btn-color);
