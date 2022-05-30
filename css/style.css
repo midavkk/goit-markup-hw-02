@@ -95,7 +95,12 @@ body {
 }
 
 .title {
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .section-title {
@@ -109,6 +114,7 @@ body {
   text-transform: uppercase;
   color: var(--hero-title-color);
 }
+
 .section-btn {
   cursor: pointer;
   font-family: inherit;
